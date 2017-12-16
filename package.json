@@ -1,0 +1,26 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Biblioteca do curso js com tdd na pratica",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint src/*.js",
+    "prepush":"npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Alexandre Kavalerski <kavalerskialexandre@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.14.3"
+  },
+  "dependencies": {
+    "eslint": "^4.13.1"
+  }
+}
